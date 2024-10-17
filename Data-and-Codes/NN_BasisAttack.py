@@ -213,8 +213,6 @@ times = 100
 NN_times = 10000
 mismatch_prob = np.zeros([times, threstimes])
 
-reconstructed_unscaledflat_labels = np.load('reconstructed_unscaledflat_labels_Basis.npy')
-
 for j in range(times):
     for th in range(threstimes):
         mismatch_prob[j,th] = (np.sum(computed_labels != reconstructed_unscaledflat_labels[:,j,th])/NN_times)
