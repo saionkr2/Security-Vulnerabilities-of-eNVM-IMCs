@@ -13,7 +13,7 @@ The following Python 3 packages are required to run the program
 ## Instructions for running the attack codes
 Basis vector attack:
 1. The script NN_BasisAttack.py requires the chip data file Apr3_2024_Attack_8p3MHz_N64_ADC65-105.npz, which is already located in the directory /Data-and-Codes.
-2. Upon executing the script, it will generate three plots corresponding to Figures 6(a), 7(a), and 8(a) in the referenced paper.
+2. Upon executing the script, it will generate three plots corresponding to Figures 6(a), 7(a), and 8(a) in the paper.
 
 LS and SGD attacks:
 1. To run the LS attack (NN_OLSAttack.py) and the SGD attack (NN_SGDAttack.py), you will need to download the following MRAM chip data files:
